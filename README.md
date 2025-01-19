@@ -28,11 +28,6 @@ Apply migrations:
 python manage.py migrate
 ```
 
-Create a superuser (for accessing the Django Admin and generating JWT tokens):
-```bash
-python manage.py createsuperuser
-```
-
 Start the development server:
 ```bash
 python manage.py runserver
